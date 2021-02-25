@@ -43,14 +43,14 @@ def send():
     entry1.delete(0, END)
 
     j = j + 2
-    """
+    
     cn = k
     incoming_message = connection.recv(1025)
     incoming_message = incoming_message.decode()
     label6 = Label(master=frame1, text=incoming_message)
     label6.grid(row=cn, column=1, sticky=E)
     k = k + 2
-    """
+    
 
 
 j = 4
